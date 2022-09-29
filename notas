@@ -1,0 +1,12 @@
+                <div data-aos="fade-up" class="card">
+                    <img class="cardProyect" src="assets\wt-poster.png" alt="">
+                    <p class="card-desc">Este proyecto es de una tienda de instagram que me gusto mucho, es sobre sneakers o zapatillas y queria diseñar la pagina a mi gusto con carrito incluido implementando JavaScript.</p>
+                </div>
+                <div data-aos="fade-up" class="card">
+                    <img class="cardProyect" src="assets/calculadora.png" alt="">
+                    <p class="card-desc">Este proyecto es muy sencillo pero me gustó mucho, es una calculadora totalmente funcional. Saque la idea de un post de linkedin.</p>
+                </div>
+                <div data-aos="fade-up" class="card">
+                    <img class="cardProyect" src="assets/Walking Tranquilo.png" alt="">
+                    <p class="card-desc">Este proyecto es de una tienda de instagram que me gusto mucho, es sobre sneakers o zapatillas y queria diseñar la pagina a mi gusto con carrito incluido implementando JavaScript.</p>
+                </div>

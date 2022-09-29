@@ -18,6 +18,7 @@ li{
     list-style: none;
     display: inline-block;
     color: rgb(0, 0, 0);
+    font-weight: 500;
 }
 button{ 
     cursor: pointer;
@@ -63,24 +64,6 @@ body{
     -webkit-background-clip: text;
     color: transparent;  
 }
-.profile{
-    border-radius: 50%;
-    grid-row: 1/1;
-}
-.picos{
-    animation-name: picos;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-}
-@keyframes picos {
-    from{
-        color: black;
-    }
-    to{
-        color: #ffffff;
-    }
-}
 .pMain{
     display: grid;
     grid-template-columns: 50%;
@@ -100,6 +83,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 .pdesc{
     font-family: 'Open Sans', sans-serif;
@@ -147,7 +131,7 @@ body{
 footer{
     background-color: #050505;
     color: #fff;
-    height: 200px;
+    height: auto;
     text-align: center;
     margin-top: 200px;
 }
@@ -196,10 +180,10 @@ h2{
 }
 .card img {
     width: 100%;
-    height: 98%;
+    height: 100%;
     object-fit: cover;
     display: block;
-    position: relative;
+    position: relative; 
     border-radius: 7px;
 }
 .card-desc {
@@ -214,10 +198,11 @@ h2{
     transition: 0.8s ease;
     color: #fff;
     text-align: center;
+    border-radius: 7px;
 }
 .card:hover .card-desc {
     opacity: 1;
-    height: 100%;
+    height: 90%;
 }
 .btnCard{
     width: 50%;
@@ -242,15 +227,15 @@ h3{
     text-align: center;
 }
 .formulario{
-    width: 50%;
+    width: 100%;
     display: flex;
-    justify-content: center;
-    margin: auto;
+    justify-content: center;    
     border-radius: 5px;
 }
 .formulario input{
     width: 100%;
     margin-bottom: 10px;
+    height: 25px;
 }
 .formulario button{
     width: 100%;
