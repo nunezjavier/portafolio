@@ -164,48 +164,21 @@ h2{
     justify-content: space-around;
 }
 .card {
-    margin: 40px;
-    position: relative;
-    max-width: 250px;
-    max-height: 350px;
-}
-.card-title {
-    display: block;
-    text-align: center;
-    color: #fff;
-    background-color: #6184a8;
-    padding: 2%;
-    border-top-right-radius: 4px;
-    border-top-left-radius: 4px;
-}
-.card img {
-    width: 100%;
+    margin: 10px 15px;
+    width: 230px;
     height: 100%;
-    object-fit: cover;
-    display: block;
-    position: relative; 
-    border-radius: 7px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.25);
+    background-color: #fff;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
 }
-.card-desc {
-    display: block;
-    font-size: 1.2rem;
-    position: absolute;
-    height: 0;
-    top: 0;
-    opacity: 0;
-    padding: 18px 8%;
-    background-color: #050505;
-    transition: 0.8s ease;
-    color: #fff;
-    text-align: center;
-    border-radius: 7px;
-}
-.card:hover .card-desc {
-    opacity: 1;
-    height: 90%;
+.card img{
+    width: 100%;
 }
 .btnCard{
-    width: 50%;
+    width: 40%;
 }
 .cv-btn{
     display: flex;
@@ -216,7 +189,8 @@ h2{
     color: #fff;
 }
 .main-margin{
-    margin: 130px;
+    margin: 100px;
+    margin-bottom: 10px;
 }
 textarea{
     resize: none;
@@ -270,4 +244,9 @@ h3{
     .yosoy{
         margin-left: 1rem;
     }
+}
+.img-sobremi{
+    width: 50%;
+    height: 200px;
+    border-radius: 7px;
 }
