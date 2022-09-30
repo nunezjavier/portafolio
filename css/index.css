@@ -5,9 +5,9 @@
     margin: 0%;
     padding: 0%;
     text-decoration: none;
+    color: #f7f7f7;
 }
 a{
-    color: black;
     text-decoration: none;
 }
 li{
@@ -17,27 +17,25 @@ li{
     margin-right: 5px;
     list-style: none;
     display: inline-block;
-    color: rgb(0, 0, 0);
     font-weight: 500;
 }
 button{ 
     cursor: pointer;
     border: 0ch;
-    color: #000;
     background-color: #fff;
     padding: 10px 10px;
     border-radius: 6px;
     box-shadow: 0 6px 0 #61DBFB;
     transition: .3s;
     margin-bottom: 10px;
+    color: #000;
 }
 button:active{
     transform: translateY(5px);
     box-shadow: 0 3px 0 #5bceeb;
 }
 body{
-    color: #000;
-    background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
+    background-image: linear-gradient(to right, rgba(21,55,79,1) 0%, rgba(21,55,79,1) 0%, rgba(17,24,39,1) 50%, rgba(17,24,39,1) 71%, rgba(44,18,59,1) 100%);
     background-attachment: fixed;
 }
 .head{
@@ -60,7 +58,7 @@ body{
     display: inline-block;
     margin-left: 15px;
     margin: auto;
-    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
     -webkit-background-clip: text;
     color: transparent;  
 }
@@ -107,7 +105,7 @@ body{
     height: 280px;
     border-radius: 4px;
     box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.25);
-    background-color: rgb(255, 255, 255);
+    background-color: #f7f7f7;
     overflow: hidden;
     transition: all 0.3s ease-in-out;
     text-align: center;
@@ -130,13 +128,11 @@ body{
 }
 footer{
     background-color: #050505;
-    color: #fff;
     height: auto;
     text-align: center;
     margin-top: 200px;
 }
 footer i{
-    color: #fff;
     padding: 20px;
 }
 footer h4{
@@ -169,7 +165,7 @@ h2{
     height: 100%;
     border-radius: 4px;
     box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.25);
-    background-color: #fff;
+    background-color: #f7f7f7;
     overflow: hidden;
     transition: all 0.3s ease-in-out;
     cursor: pointer;
@@ -180,13 +176,16 @@ h2{
 .btnCard{
     width: 40%;
 }
+.h4-card{
+    color: #000;
+}
 .cv-btn{
     display: flex;
     justify-content: center;
     margin: 30px;
 }
 .aIcon{
-    color: #fff;
+    color: #f7f7f7;
 }
 .main-margin{
     margin: 100px;
@@ -249,4 +248,7 @@ h3{
     width: 50%;
     height: 200px;
     border-radius: 7px;
+}
+i{
+    color: #000;
 }
